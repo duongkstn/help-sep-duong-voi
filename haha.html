@@ -1,0 +1,128 @@
+<html>
+ <head>
+  <style>
+   * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: gold;
+}
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 20px;
+}
+#hero {
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+  background-color: black;
+}
+#hero img {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+main {
+  margin: 50px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+  </style>
+ </head>
+ <body>
+  <header>
+   <img alt="Center Logo" id="logo" src="http://via.placeholder.com/350x150"/>
+   <nav>
+    <ul>
+     <li>
+      <a href="#">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Men
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Women
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       About
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <section id="hero">
+   <form>
+    <label for="color">
+     Pick Your Color:
+    </label>
+    <input id="color" name="color" type="color"/>
+   </form>
+   <img alt="Hero Image" src="http://via.placeholder.com/1920x1080"/>
+  </section>
+  <main>
+   <h1>
+    Sweat Pink
+   </h1>
+   <p>
+    In vestibulum massa nec metus dignissim rhoncus sollicitudin. Nunc consequat, orci sed dignissim consequat, justo metus eleifend mi, nec fermentum diam augue vel lacus.
+   </p>
+   ... (repeat this paragraph and adjust the text for every additional paragraph) ...
+  </main>
+  <footer>
+   <p>
+    © 20xx. Fashion Company. All rights reserved.
+   </p>
+  </footer>
+  <script type="text/javascript" src="load_js_methods.js"></script>
+ </body>
+</html>
