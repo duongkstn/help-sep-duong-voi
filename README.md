@@ -18,3 +18,13 @@ sếp dump kkk ra 1 file .json nữa càng tốt ạ
 
 Chủ yếu là sếp sửa file JS, và chỉ anh cách cài đặt (version npm, node như nào ấy)
 
+
+## USAGE
+1) Install jsdom by npm
+```bash
+npm install jsdom
+```
+2) Run code by node.js
+```bash
+node load_js_methods.node.js  
+```
